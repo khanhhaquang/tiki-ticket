@@ -464,6 +464,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styl
 
 /***/ }),
 
+/***/ "./src/routes/booking/children/screen/index.jsx":
+/*!******************************************************!*\
+  !*** ./src/routes/booking/children/screen/index.jsx ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.styled */ \"./src/routes/booking/children/screen/index.styled.js\");\n\n\n\nvar Screen = function Screen() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    className: \"screen\"\n  }, \"Screen\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Screen);\n\n//# sourceURL=webpack:///./src/routes/booking/children/screen/index.jsx?");
+
+/***/ }),
+
+/***/ "./src/routes/booking/children/screen/index.styled.js":
+/*!************************************************************!*\
+  !*** ./src/routes/booking/children/screen/index.styled.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\tbackground: #ffffff;\\n\\tcolor: #000000;\\n\\tpadding: 5px 10px;\\n\\ttext-align: center;\\n\\tmargin: 30px 20px;\\n\\n\\tborder-bottom-left-radius: 20px;\\n\\tborder-bottom-right-radius: 20px;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/routes/booking/children/screen/index.styled.js?");
+
+/***/ }),
+
+/***/ "./src/routes/booking/children/seats/index.jsx":
+/*!*****************************************************!*\
+  !*** ./src/routes/booking/children/seats/index.jsx ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _shared_seat__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @shared/seat */ \"./src/shared/seat/index.jsx\");\n/* harmony import */ var _index_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.styled */ \"./src/routes/booking/children/seats/index.styled.js\");\n\n\n\n\nvar Seats = function Seats() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_seat__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    type: \"standard\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_seat__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    type: \"vip\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_seat__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    type: \"deluxe\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shared_seat__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    type: \"standard\"\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Seats);\n\n//# sourceURL=webpack:///./src/routes/booking/children/seats/index.jsx?");
+
+/***/ }),
+
+/***/ "./src/routes/booking/children/seats/index.styled.js":
+/*!***********************************************************!*\
+  !*** ./src/routes/booking/children/seats/index.styled.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\tdisplay: flex;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].main(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/routes/booking/children/seats/index.styled.js?");
+
+/***/ }),
+
 /***/ "./src/routes/booking/index.jsx":
 /*!**************************************!*\
   !*** ./src/routes/booking/index.jsx ***!
@@ -472,7 +520,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styl
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.styled */ \"./src/routes/booking/index.styled.js\");\n/* harmony import */ var _children_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./children/header */ \"./src/routes/booking/children/header/index.jsx\");\n\n\n\n\nvar Booking = function Booking() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_children_header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Booking);\n\n//# sourceURL=webpack:///./src/routes/booking/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.styled */ \"./src/routes/booking/index.styled.js\");\n/* harmony import */ var _children_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./children/header */ \"./src/routes/booking/children/header/index.jsx\");\n/* harmony import */ var _children_screen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./children/screen */ \"./src/routes/booking/children/screen/index.jsx\");\n/* harmony import */ var _children_seats__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./children/seats */ \"./src/routes/booking/children/seats/index.jsx\");\n\n\n\n\n\n\nvar Booking = function Booking() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_children_header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_children_screen__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_children_seats__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Booking);\n\n//# sourceURL=webpack:///./src/routes/booking/index.jsx?");
 
 /***/ }),
 
@@ -484,7 +532,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\tcolor: #ffffff;\\n\\tpadding: 20px 0;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/routes/booking/index.styled.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\tposition: relative;\\n\\tcolor: #ffffff;\\n\\tpadding: 20px 0;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/routes/booking/index.styled.js?");
 
 /***/ }),
 
@@ -509,6 +557,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\tmin-height: 100vh;\\n\\tmax-width: 480px;\\n\\tbackground: #000000;\\n\\tmargin: auto;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/routes/index.styled.js?");
+
+/***/ }),
+
+/***/ "./src/shared/seat/index.jsx":
+/*!***********************************!*\
+  !*** ./src/shared/seat/index.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _index_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.styled */ \"./src/shared/seat/index.styled.js\");\n\n\n\n\nvar Seat = function Seat(props) {\n  var type = props.type;\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    className: \"seat \".concat(type)\n  });\n};\n\nSeat.propTypes = {\n  type: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (Seat);\n\n//# sourceURL=webpack:///./src/shared/seat/index.jsx?");
+
+/***/ }),
+
+/***/ "./src/shared/seat/index.styled.js":
+/*!*****************************************!*\
+  !*** ./src/shared/seat/index.styled.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n\\twidth: 20px;\\n\\theight: 20px;\\n\\tborder-radius: 8px;\\n\\tmargin: 5px;\\n\\tborder: 1px solid #ffffff;\\n\\tcursor: pointer;\\n\\n\\t.vip {\\n\\t\\tborder: 1px solid #4ee681;\\n\\t}\\n\\n\\t.deluxe {\\n\\t\\tborder: 1px solid #4287f5;\\n\\t}\\n\\n\\t.selected {\\n\\t\\tborder: 1px solid #ffffff !important;\\n\\t\\tbackground: #ffffff;\\n\\t}\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Styled = styled_components__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(_templateObject());\n/* harmony default export */ __webpack_exports__[\"default\"] = (Styled);\n\n//# sourceURL=webpack:///./src/shared/seat/index.styled.js?");
 
 /***/ })
 

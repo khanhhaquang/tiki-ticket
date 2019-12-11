@@ -5,7 +5,7 @@ const Styled = styled.div`
 	color: #000000;
 	padding: 5px 10px;
 	text-align: center;
-	margin: 30px 20px;
+	margin: 30px 0px;
 
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;

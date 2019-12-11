@@ -6,6 +6,10 @@ const Styled = styled.header`
 	span {
 		display: block;
 	}
+
+	.movie-name {
+		font-weight: 700;
+	}
 `;
 
 export default Styled;

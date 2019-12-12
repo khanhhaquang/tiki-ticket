@@ -1,6 +1,6 @@
 import React from 'react';
 import Seat from '@shared/components/seat';
-import { MAX_SELECT } from '@configs';
+import { MAX_SELECT, STATUS } from '@configs';
 import Styled from './index.styled';
 import { CinemaSeats } from '../../index.mockup';
 import { BookingContext } from '../../index.context';
@@ -18,9 +18,14 @@ const Seats = () => {
 		}
 	};
 	const getType = (data) => {
+		if (data?.status === STATUS.BOOKED) {
+			return 'booked';
+		}
+
 		if (selected?.find((i) => i.id === data?.id)) {
 			return 'selected';
 		}
+
 		return data?.type;
 	};
 

@@ -12,6 +12,7 @@ const Styled = styled.div`
 
 		&.booked {
 			border: 1px solid ${COLORS.SEAT.BOOKED};
+			background: ${COLORS.SEAT.BOOKED};
 		}
 		&.vip {
 			border: 1px solid ${COLORS.SEAT.VIP};

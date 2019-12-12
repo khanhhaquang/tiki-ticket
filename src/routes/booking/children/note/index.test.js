@@ -11,8 +11,8 @@ describe('Test Booking/Note component', () => {
 	});
 
 	const component = mount(<Note />);
-	test('Check note states and types', () => {
-		expect(component.find('.states')).toBeTruthy();
+	test('Check note status and type', () => {
+		expect(component.find('.status')).toBeTruthy();
 		expect(component.find('.ticket-types')).toBeTruthy();
 	});
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Button from '@shared/components/button';
 import { formatNumber } from '@helpers';
 import Styled from './index.styled';
@@ -7,8 +6,7 @@ import { BookingContext } from '../../index.context';
 
 const Info = () => {
 	const { selected } = React.useContext(BookingContext);
-
-	const getTotal = () => selected.reduce((result, item) => result + item.price, 0);
+	const getTotal = () => selected?.reduce((result, item) => result + item?.price, 0);
 
 	return (
 		<Styled className='info'>
@@ -32,9 +30,4 @@ const Info = () => {
 		</Styled>
 	);
 };
-
-Info.propTypes = {
-	type: PropTypes.string,
-};
-
 export default Info;

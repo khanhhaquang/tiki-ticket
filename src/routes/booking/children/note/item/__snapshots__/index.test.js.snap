@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Booking/Note/Item component Snapshot note item with type not right 1`] = `
+<div
+  className="sc-bdVaJa jHVvyK item"
+>
+  <span
+    className="pre asdfsdf"
+  />
+  <span
+    className="content"
+  />
+</div>
+`;
+
+exports[`Test Booking/Note/Item component Snapshot note item without type and content 1`] = `
+<div
+  className="sc-bdVaJa jHVvyK item"
+>
+  <span
+    className="pre undefined"
+  />
+  <span
+    className="content"
+  />
+</div>
+`;

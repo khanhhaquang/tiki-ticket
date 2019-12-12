@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Booking/Info component Snapshot info 1`] = `
+<div
+  className="sc-bwzfXH cspWGR info"
+>
+  <div
+    className="movie"
+  >
+    <div
+      className="cinema"
+    >
+      <span
+        className="name"
+      >
+        CGV Hoàng Văn Thụ
+      </span>
+      <span
+        className="time"
+      >
+        09:10 ~ 11:10 | 08/07/2019
+      </span>
+    </div>
+    <p
+      className="price"
+    >
+      <span
+        className="total"
+      >
+        0
+      </span>
+      <span
+        className="currency"
+      >
+        đ
+      </span>
+      <span
+        className="info-logo"
+      >
+        <img
+          alt="info"
+          src="/assets/images/info.svg"
+        />
+      </span>
+    </p>
+  </div>
+  <div
+    className="actions"
+  >
+    <button
+      className="sc-bdVaJa jYBURw btn"
+    >
+      Chọn combo
+    </button>
+    <button
+      className="sc-bdVaJa jYBURw btn"
+    >
+      Thanh toán
+    </button>
+  </div>
+</div>
+`;

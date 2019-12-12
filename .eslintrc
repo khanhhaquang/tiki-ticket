@@ -50,7 +50,8 @@
 		"browser": true,
 		"node": true,
 		"worker": true,
-		"serviceworker": true
+		"serviceworker": true,
+		"jest": true
 	},
 	"parserOptions": {
 		"ecmaVersion": 6,

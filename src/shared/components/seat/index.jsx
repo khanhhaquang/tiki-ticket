@@ -13,7 +13,13 @@ const Seat = (props) => {
 };
 
 Seat.propTypes = {
-	data: PropTypes.object,
+	type: PropTypes.string,
+	number: PropTypes.number,
+};
+
+Seat.defaultProps = {
+	type: '',
+	number: 0,
 };
 
 export default Seat;

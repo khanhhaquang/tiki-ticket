@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Seat component Snapshot seat no type + number 1`] = `
+<div
+  className="sc-bdVaJa bCssIi seat "
+>
+  <span>
+    0
+  </span>
+</div>
+`;
+
+exports[`Test Seat component Snapshot seat with type + number 1`] = `
+<div
+  className="sc-bdVaJa bCssIi seat standard"
+>
+  <span>
+    1
+  </span>
+</div>
+`;

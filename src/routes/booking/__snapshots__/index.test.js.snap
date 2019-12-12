@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Booking component Snapshot booking 1`] = `
+<div
+  className="sc-bdVaJa gacHtf"
+>
+  <header
+    className="sc-bwzfXH jfHhlf header"
+  >
+    <span
+      className="movie-name"
+    >
+      Spider-man: Người nhện xa nhà
+    </span>
+    <span
+      className="movie-detail"
+    >
+      C13 | 2D Vietsub
+    </span>
+  </header>
+  <div
+    className="sc-htpNat ertTyS screen"
+  >
+    Screen
+  </div>
+  <main
+    className="sc-ifAKCX eoOKId"
+  >
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        A
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            2
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            3
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            4
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            5
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            6
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            7
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            8
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            9
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        B
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            2
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            3
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            4
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            5
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            6
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            7
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            8
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            9
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        C
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            2
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            3
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            4
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            5
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            6
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            7
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            8
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        D
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            2
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat standard"
+          onClick={[Function]}
+        >
+          <span>
+            3
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        E
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            2
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            3
+          </span>
+        </div>
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            4
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        F
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        G
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        H
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        I
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        J
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat vip"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <span
+        className="name"
+      >
+        K
+      </span>
+      <div
+        className="inner"
+      >
+        <div
+          className="sc-bxivhb gBnNeu seat deluxe"
+          onClick={[Function]}
+        >
+          <span>
+            1
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    className="sc-EHOje kRBsAN note-wrapper"
+  >
+    <section
+      className="states"
+    >
+      <div
+        className="sc-bZQynM NZqhX item"
+      >
+        <span
+          className="pre booked"
+        />
+        <span
+          className="content"
+        >
+          Đã đặt
+        </span>
+      </div>
+      <div
+        className="sc-bZQynM NZqhX item"
+      >
+        <span
+          className="pre selected"
+        />
+        <span
+          className="content"
+        >
+          Đang chọn
+        </span>
+      </div>
+    </section>
+    <section
+      className="ticket-types"
+    >
+      <div
+        className="sc-bZQynM NZqhX item"
+      >
+        <span
+          className="pre standard"
+        />
+        <span
+          className="content"
+        >
+          Standard - 60.000đ
+        </span>
+      </div>
+      <div
+        className="sc-bZQynM NZqhX item"
+      >
+        <span
+          className="pre vip"
+        />
+        <span
+          className="content"
+        >
+          VIP - 90.000đ
+        </span>
+      </div>
+      <div
+        className="sc-bZQynM NZqhX item"
+      >
+        <span
+          className="pre deluxe"
+        />
+        <span
+          className="content"
+        >
+          Deluxe - 110.000đ
+        </span>
+      </div>
+    </section>
+  </div>
+  <div
+    className="sc-htoDjs lifgaC info"
+  >
+    <div
+      className="movie"
+    >
+      <div
+        className="cinema"
+      >
+        <span
+          className="name"
+        >
+          CGV Hoàng Văn Thụ
+        </span>
+        <span
+          className="time"
+        >
+          09:10 ~ 11:10 | 08/07/2019
+        </span>
+      </div>
+      <p
+        className="price"
+      >
+        <span
+          className="total"
+        >
+          0
+        </span>
+        <span
+          className="currency"
+        >
+          đ
+        </span>
+        <span
+          className="info-logo"
+        >
+          <img
+            alt="info"
+            src="/assets/images/info.svg"
+          />
+        </span>
+      </p>
+    </div>
+    <div
+      className="actions"
+    >
+      <button
+        className="sc-gzVnrw kRgjPn btn"
+      >
+        Chọn combo
+      </button>
+      <button
+        className="sc-gzVnrw kRgjPn btn"
+      >
+        Thanh toán
+      </button>
+    </div>
+  </div>
+</div>
+`;

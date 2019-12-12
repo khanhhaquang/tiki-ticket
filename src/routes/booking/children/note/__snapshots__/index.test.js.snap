@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Booking/Note component Snapshot note 1`] = `
+<div
+  className="sc-bdVaJa eyMFbt note-wrapper"
+>
+  <section
+    className="states"
+  >
+    <div
+      className="sc-bwzfXH jlgJKy item"
+    >
+      <span
+        className="pre booked"
+      />
+      <span
+        className="content"
+      >
+        Đã đặt
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH jlgJKy item"
+    >
+      <span
+        className="pre selected"
+      />
+      <span
+        className="content"
+      >
+        Đang chọn
+      </span>
+    </div>
+  </section>
+  <section
+    className="ticket-types"
+  >
+    <div
+      className="sc-bwzfXH jlgJKy item"
+    >
+      <span
+        className="pre standard"
+      />
+      <span
+        className="content"
+      >
+        Standard - 60.000đ
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH jlgJKy item"
+    >
+      <span
+        className="pre vip"
+      />
+      <span
+        className="content"
+      >
+        VIP - 90.000đ
+      </span>
+    </div>
+    <div
+      className="sc-bwzfXH jlgJKy item"
+    >
+      <span
+        className="pre deluxe"
+      />
+      <span
+        className="content"
+      >
+        Deluxe - 110.000đ
+      </span>
+    </div>
+  </section>
+</div>
+`;

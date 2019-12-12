@@ -10,7 +10,7 @@ const Seats = () => {
 	const { selected, dispatch } = React.useContext(BookingContext);
 
 	const handleSelect = (data) => {
-		if (selected?.find((i) => i.id === data?.id)) {
+		if (selected?.find((i) => i?.id === data?.id)) {
 			remove(dispatch, data);
 		} else {
 			if (selected?.length === MAX_SELECT) return;
@@ -22,7 +22,7 @@ const Seats = () => {
 			return 'booked';
 		}
 
-		if (selected?.find((i) => i.id === data?.id)) {
+		if (selected?.find((i) => i?.id === data?.id)) {
 			return 'selected';
 		}
 
